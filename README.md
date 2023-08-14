@@ -1,5 +1,5 @@
 # Steam-Inventory-Appraiser-alpha
-Steam Inventory Appraiser (alpha version) for Counter-Strike using Steam API.
+Steam Inventory Appraiser (alpha version) for Counter-Strike.
 
 How to use:
 1. Download NodeJs
