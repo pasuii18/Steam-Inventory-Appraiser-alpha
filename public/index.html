@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Inventory Appraiser v.a140823</title> 
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link type="Image/x-icon" href="favicon.ico" rel="icon"> 
+ </head> 
+
+ <body>
+   <div class="inventoryBody"> 
+    <div class="content"> 
+     <h2>Inventory</h2>
+     <label for="userIdInput" style="margin-bottom: 0;">Enter your steam id here:</label>
+     <input class="userIdInput" id="userIdInput" type="text" maxlength="20" style="margin-bottom: 20px;">
+
+      <label for="isSellable">Sallable?</label>
+      <input id="isSellable" type="checkbox">
+
+     <button class="getItemsBtn" id="getItemsBtn">Get My Inventory!</button>
+     <label id="fullPrice" style="margin-bottom: 10px; font-size: 16pt;"></label>
+
+      <div class="form"> 
+         <footer id="inventoryBottom"></footer>
+      </div> 
+    </div> 
+   </div> 
+</body>
+<script src="index.js"></script>
+</html>
